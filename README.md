@@ -1,4 +1,4 @@
-# Camellia - A wallpaper/styles app/dashboard designed for Bliss OS
+# Camellia - A wallpaper dashboard app designed for Bliss OS
 
 "Considered by many to hold the title of the rarest flower in the world"
 

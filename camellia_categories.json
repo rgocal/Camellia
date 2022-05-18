@@ -1,0 +1,50 @@
+[
+
+	{
+		"category": "Team Bliss",
+		"category_default_banner": "https://blissos.org/images/bliss_rom_icon.png",
+		"json_url": ""
+	},
+
+	{
+		"category": "Earth",
+		"category_default_banner": "https://images.unsplash.com/photo-1551921038-a9009c20adb3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
+		"json_url": ""
+	},
+
+	{
+		"category": "Nature",
+		"category_default_banner": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=974&q=80",
+		"json_url": ""
+	},
+
+	{
+		"category": "Abstract",
+		"category_default_banner": "https://images.unsplash.com/photo-1574169208507-84376144848b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=579&q=80",
+		"json_url": ""
+	},
+
+	{
+		"category": "Designs",
+		"category_default_banner": "https://images.unsplash.com/photo-1482053450283-3e0b78b09a70?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+		"json_url": ""
+	},
+
+	{
+		"category": "Symmetrical",
+		"category_default_banner": "https://images.unsplash.com/photo-1508385082359-f38ae991e8f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+		"json_url": ""
+	},
+
+	{
+		"category": "Architectural",
+		"category_default_banner": "https://images.unsplash.com/photo-1519778119555-47f8a0929968?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+		"json_url": ""
+	},
+
+	{
+		"category": "Colors",
+		"category_default_banner": "",
+		"json_url": ""
+	}
+]

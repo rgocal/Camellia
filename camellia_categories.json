@@ -1,4 +1,5 @@
-[
+{
+	"categories": [
 
 	{
 		"category": "Team Bliss",
@@ -47,4 +48,5 @@
 		"category_default_banner": "",
 		"json_url": ""
 	}
-]
+	]
+}

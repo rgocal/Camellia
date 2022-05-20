@@ -10,7 +10,7 @@
 	{
 		"category": "Earth",
 		"category_default_banner": "https://images.unsplash.com/photo-1551921038-a9009c20adb3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
-		"json_url": ""
+		"json_url": "https://raw.githubusercontent.com/rgocal/Camellia/main/earth_category.json"
 	},
 
 	{

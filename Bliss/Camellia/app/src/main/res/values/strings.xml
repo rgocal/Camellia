@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Camellia</string>
+    <string name="camellia_catalogue">https://raw.githubusercontent.com/rgocal/Camellia/main/camellia_categories.json</string>
+    <string name="camellia_creations">https://raw.githubusercontent.com/rgocal/Camellia/main/creations.json</string>
+    <string name="camellia_sounds">https://raw.githubusercontent.com/rgocal/Camellia/main/sounds.json</string>
+    <string name="ota_checker">https://raw.githubusercontent.com/rgocal/Camellia/main/ota_version_check.json</string>
+
+</resources>

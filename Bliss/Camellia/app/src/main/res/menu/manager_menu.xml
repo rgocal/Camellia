@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/about"
+        android:title="About" />
+    <item
+        android:id="@+id/license"
+        android:title="License" />
+    <item
+        android:id="@+id/submit"
+        android:title="Submit Content" />
+    <item
+        android:id="@+id/settings"
+        app:showAsAction="withText|ifRoom"
+        android:icon="@drawable/ic_baseline_settings"
+        android:title="Settings" />
+</menu>

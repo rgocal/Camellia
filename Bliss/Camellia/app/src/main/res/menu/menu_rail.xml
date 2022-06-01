@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/content"
+        android:icon="@drawable/ic_baseline_domain"
+        android:title="Categories" />
+    <item
+        android:id="@+id/custom_content"
+        android:icon="@drawable/ic_baseline_domain_add"
+        android:title="SubCategories" />
+    <item
+        android:id="@+id/providers"
+        android:icon="@drawable/ic_baseline_blinds"
+        android:title="Providers" />
+    <item
+        android:id="@+id/live_providers"
+        android:icon="@drawable/ic_baseline_blinds_closed"
+        android:title="Live Providers" />
+    <item
+        android:id="@+id/sounds"
+        android:icon="@drawable/ic_baseline_surround_sound"
+        android:title="Sounds" />
+    <item
+        android:id="@+id/apps"
+        android:icon="@drawable/ic_baseline_bubble_chart"
+        android:title="Creations" />
+</menu>

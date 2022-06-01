@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/wallpaper_holder"
+            android:weightSum="2"
+            android:layout_margin="8dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="292dp">
+
+            <FrameLayout
+                android:layout_weight="1"
+                android:padding="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/wallpaper_homescreen"
+                    android:scaleType="fitXY"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+                <com.gocalsd.bliss.camellia.Views.VerticalTextView
+                    android:id="@+id/wallpaper_homescreen_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Homescreen"
+                    android:textSize="22sp"
+                    android:autoSizeMaxTextSize="38sp"
+                    android:autoSizeMinTextSize="22sp"
+                    style="@style/TextAppearance.Material3.LabelMedium"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    tools:targetApi="o" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/lockscreen_frame"
+                android:layout_weight="1"
+                android:padding="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/wallpaper_lockscreen"
+                    android:scaleType="fitXY"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.gocalsd.bliss.camellia.Views.HourTextView
+                        android:id="@+id/hourView"
+                        style="@style/TextAppearance.Material3.LabelLarge"
+                        android:textSize="56sp"
+                        android:autoSizeMaxTextSize="72sp"
+                        android:autoSizeMinTextSize="48sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:targetApi="o" />
+
+                    <com.gocalsd.bliss.camellia.Views.MinuteTextView
+                        android:id="@+id/minuteView"
+                        style="@style/TextAppearance.Material3.LabelLarge"
+                        android:textSize="48sp"
+                        android:autoSizeMaxTextSize="56sp"
+                        android:autoSizeMinTextSize="36sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:targetApi="o" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </FrameLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <com.kieronquinn.monetcompat.view.MonetSwitch
+        android:id="@+id/nightModeSwitch"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Dark Theme Status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

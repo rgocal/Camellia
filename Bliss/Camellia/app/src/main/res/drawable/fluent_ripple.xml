@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/design_default_color_on_primary"
+    android:radius="800dp">
+
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle" >
+            <stroke android:color="@color/material_on_surface_stroke" android:width="1.5dp"/>
+            <gradient android:startColor="@color/design_default_color_secondary" android:centerColor="@color/design_default_color_on_primary" android:endColor="@color/design_default_color_primary"/>
+        </shape>
+    </item>
+</ripple>

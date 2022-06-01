@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.gocalsd.bliss.camellia.Views.NxToolbar
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:id="@+id/toolbar"/>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_view"
+        android:layout_toEndOf="@+id/navigation_rail"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.google.android.material.navigationrail.NavigationRailView
+        style="@style/Widget.MaterialComponents.NavigationRailView.Colored.Compact"
+        android:id="@+id/navigation_rail"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="?actionBarSize"
+        android:layout_height="match_parent"
+        app:headerLayout="@layout/layout_rail"
+        app:menu="@menu/menu_rail" />
+
+</RelativeLayout>

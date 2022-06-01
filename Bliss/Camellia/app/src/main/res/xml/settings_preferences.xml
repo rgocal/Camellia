@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.gocalsd.bliss.camellia.Settings.Preferences.NxPreferenceCategory
+        android:title="Settings"/>
+
+    <com.gocalsd.bliss.camellia.Settings.Preferences.NxPreference
+        android:key="version"/>
+
+</PreferenceScreen>
